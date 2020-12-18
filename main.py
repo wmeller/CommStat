@@ -7,8 +7,8 @@ Required Functions:
 5. Edit units, nets, on the fly.
 W Eller, C Cimmarrusti'''
 
-from PyQt5 import QtApplication, QLabel
-app = QtApplication([])
+from PyQt5.QtWidgets import QApplication, QLabel
+app = QApplication([])
 label = QLabel('Hello World!')
 label.show()
 app.exec_()

@@ -15,7 +15,7 @@ Dev Notes:
     want to edit in the app though, the exported csv files are way easier. One can always clear the data and just start over too.
     2/9/2021: Status changes as a function of time. There are some debug variables left in, and the timer is set to 1 second right now. The
     command view is called, but the class is not built yet.
-    2/11/2021: All features work for V1.0 except POSREP permanence. It gets cleared when you close the window.
+    2/11/2021: All features work for V1.0 Commit to GETAC!
 """
 import sys, os.path
 from PyQt5.QtWidgets import QMainWindow, QMessageBox, QPushButton, QScrollArea, QApplication, QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QLabel, QGroupBox, QFileDialog
